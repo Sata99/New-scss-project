@@ -1,25 +1,24 @@
-
-.container2{
-margin-left: 20px;
+//footer//
+.container2{ 
 
     nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        
-        
-        ul{
-            list-style-type: none;
-            
-            li{
-            padding: 15px;
-            display: inline-flex;
-            justify-content: flex-end;
-            }
-        }
-    }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       justify-content: space-between;
 
+    li{ 
+        display: inline-flex;
+        margin-left: 20px ;
 
+       a{
+        text-decoration: none;
+         color: $text-color;
+   
+       &:hover{
+        color: $secondre-color ;
+              }
+       }
+       }
+    }   
 }
-
-    

@@ -1,28 +1,24 @@
+//header//
+.container1{ 
 
-ul, ol{
-    list-style-type: none; 
-}
-
-.container1{
     nav{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-between;
-        
-            li{
-                display: inline-flex;
-             }
-        }
-        
-    }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       justify-content: space-between;
 
-a{
-    text-decoration: none;
-     color: $text-color;
-    
-    &:hover{
+    li{ 
+        display: inline-flex;
+        margin-left: 20px ;
+
+       a{
+        text-decoration: none;
+         color: $text-color;
+   
+       &:hover{
         color: $secondre-color ;
-    }
+              }
+       }
+       }
+    }   
 }
-
