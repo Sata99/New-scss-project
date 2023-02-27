@@ -1,0 +1,25 @@
+
+.container2{
+margin-left: 20px;
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+        ul{
+            list-style-type: none;
+            
+            li{
+            padding: 15px;
+            display: inline-flex;
+            justify-content: flex-end;
+            }
+        }
+    }
+
+
+}
+
+    

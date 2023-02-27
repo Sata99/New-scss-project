@@ -1,0 +1,36 @@
+$color-primary:rgb(247, 240, 240);
+$body-family:'Mulish', sans-serif;
+$font-style:normal;
+$text-color:#111111;
+$secondre-color:#4A4FF2;
+$theerd-color:rgb(17, 17, 17, 0.6);
+$primary-font-weight:700;
+$primary-font-style:normal;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $color-primary;
+    font-family:$body-family;
+    font-style: $primary-font-style;
+}
+
+.border{
+    width: 100%;
+    margin: 40px 40px;
+    padding: 20px;
+    
+}
+
+%h2 {
+       width: 100%;
+       max-width: 60%;
+       font-weight: $primary-font-weight;
+       font-size: 28px;
+       line-height: 38px;
+       color:$text-color;
+}

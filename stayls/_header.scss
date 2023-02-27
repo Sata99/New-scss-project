@@ -1,29 +1,28 @@
+
+ul, ol{
+    list-style-type: none; 
+}
+
 .container1{
-    color: $text-color;
-    
     nav{
         display: flex;
+        justify-content: center;
         align-items: center;
         justify-content: space-between;
-        padding: 15px;
-        margin: 0 50px;
         
-        ul{
-            list-style-type: none;
-            
             li{
-            padding: 15px;
-            display: inline-flex;
-            }
+                display: inline-flex;
+             }
         }
+        
     }
-}
+
 a{
     text-decoration: none;
-    color: $text-color;
-
+     color: $text-color;
     
     &:hover{
         color: $secondre-color ;
     }
 }
+
