@@ -5,20 +5,14 @@
 .box7{
 
     h2{
-        width: 100%;
-        max-width: 60%;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 38px;
-        color:$text-color; 
-        margin: 40px 20px;
+        h2{
+            @extend %h2;
+         }
     }
 
     p{
         margin: 40px 20px;
-
     }
-
 }
 
 .box8 {
@@ -85,6 +79,27 @@
         grid-column: 2/5;
     }
 }
+
+.img-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.row13{
+    margin: 40px 20px;
+}
+
+.box9{
+display: flex;
+justify-content: center;
+align-items: center;
+display: inline-flex;
+
+}
+
+
 
 
 
